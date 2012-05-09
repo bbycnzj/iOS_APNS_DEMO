@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6E36F161558F98F0013677B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E36F151558F98F0013677B /* UIKit.framework */; };
+		F6E36F181558F98F0013677B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E36F171558F98F0013677B /* Foundation.framework */; };
+		F6E36F1A1558F98F0013677B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E36F191558F98F0013677B /* CoreGraphics.framework */; };
+		F6E36F201558F98F0013677B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F1E1558F98F0013677B /* InfoPlist.strings */; };
+		F6E36F221558F98F0013677B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E36F211558F98F0013677B /* main.m */; };
+		F6E36F261558F98F0013677B /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E36F251558F98F0013677B /* KSAppDelegate.m */; };
+		F6E36F291558F98F0013677B /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E36F281558F98F0013677B /* KSViewController.m */; };
+		F6E36F2C1558F98F0013677B /* KSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F2A1558F98F0013677B /* KSViewController_iPhone.xib */; };
+		F6E36F2F1558F98F0013677B /* KSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F2D1558F98F0013677B /* KSViewController_iPad.xib */; };
+		F6E36F40155901BB0013677B /* Drip1.caf in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F3D155901BB0013677B /* Drip1.caf */; };
+		F6E36F41155901BB0013677B /* NewPart.caf in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F3E155901BB0013677B /* NewPart.caf */; };
+		F6E36F42155901BB0013677B /* OpenDoor.caf in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F3F155901BB0013677B /* OpenDoor.caf */; };
+		F6E36F8415591AE70013677B /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F7C15591AE70013677B /* Default-Landscape.png */; };
+		F6E36F8515591AE70013677B /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F7D15591AE70013677B /* Default-Portrait.png */; };
+		F6E36F8615591AE70013677B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F7E15591AE70013677B /* Default.png */; };
+		F6E36F8815591AE70013677B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F8015591AE70013677B /* Icon-72.png */; };
+		F6E36F8915591AE70013677B /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F8115591AE70013677B /* Icon-72@2x.png */; };
+		F6E36F8A15591AE70013677B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F8215591AE70013677B /* Icon.png */; };
+		F6E36F8B15591AE70013677B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F8315591AE70013677B /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6E36F111558F98F0013677B /* ApnsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApnsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E36F151558F98F0013677B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6E36F171558F98F0013677B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6E36F191558F98F0013677B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6E36F1D1558F98F0013677B /* ApnsDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApnsDemo-Info.plist"; sourceTree = "<group>"; };
+		F6E36F1F1558F98F0013677B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6E36F211558F98F0013677B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6E36F231558F98F0013677B /* ApnsDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApnsDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F6E36F241558F98F0013677B /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
+		F6E36F251558F98F0013677B /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
+		F6E36F271558F98F0013677B /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
+		F6E36F281558F98F0013677B /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		F6E36F2B1558F98F0013677B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KSViewController_iPhone.xib; sourceTree = "<group>"; };
+		F6E36F2E1558F98F0013677B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KSViewController_iPad.xib; sourceTree = "<group>"; };
+		F6E36F3D155901BB0013677B /* Drip1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Drip1.caf; sourceTree = "<group>"; };
+		F6E36F3E155901BB0013677B /* NewPart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewPart.caf; sourceTree = "<group>"; };
+		F6E36F3F155901BB0013677B /* OpenDoor.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenDoor.caf; sourceTree = "<group>"; };
+		F6E36F7C15591AE70013677B /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		F6E36F7D15591AE70013677B /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		F6E36F7E15591AE70013677B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F6E36F8015591AE70013677B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		F6E36F8115591AE70013677B /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		F6E36F8215591AE70013677B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F6E36F8315591AE70013677B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6E36F0E1558F98F0013677B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E36F161558F98F0013677B /* UIKit.framework in Frameworks */,
+				F6E36F181558F98F0013677B /* Foundation.framework in Frameworks */,
+				F6E36F1A1558F98F0013677B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6E36F061558F98F0013677B = {
+			isa = PBXGroup;
+			children = (
+				F6E36F1B1558F98F0013677B /* ApnsDemo */,
+				F6E36F141558F98F0013677B /* Frameworks */,
+				F6E36F121558F98F0013677B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6E36F121558F98F0013677B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6E36F111558F98F0013677B /* ApnsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E36F141558F98F0013677B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6E36F151558F98F0013677B /* UIKit.framework */,
+				F6E36F171558F98F0013677B /* Foundation.framework */,
+				F6E36F191558F98F0013677B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6E36F1B1558F98F0013677B /* ApnsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F6E36F3C155901BB0013677B /* Resources */,
+				F6E36F241558F98F0013677B /* KSAppDelegate.h */,
+				F6E36F251558F98F0013677B /* KSAppDelegate.m */,
+				F6E36F271558F98F0013677B /* KSViewController.h */,
+				F6E36F281558F98F0013677B /* KSViewController.m */,
+				F6E36F2A1558F98F0013677B /* KSViewController_iPhone.xib */,
+				F6E36F2D1558F98F0013677B /* KSViewController_iPad.xib */,
+				F6E36F1C1558F98F0013677B /* Supporting Files */,
+			);
+			path = ApnsDemo;
+			sourceTree = "<group>";
+		};
+		F6E36F1C1558F98F0013677B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6E36F1D1558F98F0013677B /* ApnsDemo-Info.plist */,
+				F6E36F1E1558F98F0013677B /* InfoPlist.strings */,
+				F6E36F211558F98F0013677B /* main.m */,
+				F6E36F231558F98F0013677B /* ApnsDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6E36F3C155901BB0013677B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6E36F7C15591AE70013677B /* Default-Landscape.png */,
+				F6E36F7D15591AE70013677B /* Default-Portrait.png */,
+				F6E36F7E15591AE70013677B /* Default.png */,
+				F6E36F8015591AE70013677B /* Icon-72.png */,
+				F6E36F8115591AE70013677B /* Icon-72@2x.png */,
+				F6E36F8215591AE70013677B /* Icon.png */,
+				F6E36F8315591AE70013677B /* Icon@2x.png */,
+				F6E36F3D155901BB0013677B /* Drip1.caf */,
+				F6E36F3E155901BB0013677B /* NewPart.caf */,
+				F6E36F3F155901BB0013677B /* OpenDoor.caf */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6E36F101558F98F0013677B /* ApnsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E36F321558F98F0013677B /* Build configuration list for PBXNativeTarget "ApnsDemo" */;
+			buildPhases = (
+				F6E36F0D1558F98F0013677B /* Sources */,
+				F6E36F0E1558F98F0013677B /* Frameworks */,
+				F6E36F0F1558F98F0013677B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApnsDemo;
+			productName = ApnsDemo;
+			productReference = F6E36F111558F98F0013677B /* ApnsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6E36F081558F98F0013677B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F6E36F0B1558F98F0013677B /* Build configuration list for PBXProject "ApnsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6E36F061558F98F0013677B;
+			productRefGroup = F6E36F121558F98F0013677B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6E36F101558F98F0013677B /* ApnsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6E36F0F1558F98F0013677B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E36F201558F98F0013677B /* InfoPlist.strings in Resources */,
+				F6E36F2C1558F98F0013677B /* KSViewController_iPhone.xib in Resources */,
+				F6E36F2F1558F98F0013677B /* KSViewController_iPad.xib in Resources */,
+				F6E36F40155901BB0013677B /* Drip1.caf in Resources */,
+				F6E36F41155901BB0013677B /* NewPart.caf in Resources */,
+				F6E36F42155901BB0013677B /* OpenDoor.caf in Resources */,
+				F6E36F8415591AE70013677B /* Default-Landscape.png in Resources */,
+				F6E36F8515591AE70013677B /* Default-Portrait.png in Resources */,
+				F6E36F8615591AE70013677B /* Default.png in Resources */,
+				F6E36F8815591AE70013677B /* Icon-72.png in Resources */,
+				F6E36F8915591AE70013677B /* Icon-72@2x.png in Resources */,
+				F6E36F8A15591AE70013677B /* Icon.png in Resources */,
+				F6E36F8B15591AE70013677B /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6E36F0D1558F98F0013677B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E36F221558F98F0013677B /* main.m in Sources */,
+				F6E36F261558F98F0013677B /* KSAppDelegate.m in Sources */,
+				F6E36F291558F98F0013677B /* KSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6E36F1E1558F98F0013677B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E36F1F1558F98F0013677B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6E36F2A1558F98F0013677B /* KSViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E36F2B1558F98F0013677B /* en */,
+			);
+			name = KSViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F6E36F2D1558F98F0013677B /* KSViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E36F2E1558F98F0013677B /* en */,
+			);
+			name = KSViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6E36F301558F98F0013677B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6E36F311558F98F0013677B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6E36F331558F98F0013677B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jinbo He (9GB8877QXK)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApnsDemo/ApnsDemo-Prefix.pch";
+				INFOPLIST_FILE = "ApnsDemo/ApnsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3CAF05B0-3F77-4750-83DF-3A27BEFD48D2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6E36F341558F98F0013677B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jinbo He (9GB8877QXK)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApnsDemo/ApnsDemo-Prefix.pch";
+				INFOPLIST_FILE = "ApnsDemo/ApnsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3CAF05B0-3F77-4750-83DF-3A27BEFD48D2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6E36F0B1558F98F0013677B /* Build configuration list for PBXProject "ApnsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E36F301558F98F0013677B /* Debug */,
+				F6E36F311558F98F0013677B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E36F321558F98F0013677B /* Build configuration list for PBXNativeTarget "ApnsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E36F331558F98F0013677B /* Debug */,
+				F6E36F341558F98F0013677B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6E36F081558F98F0013677B /* Project object */;
+}
